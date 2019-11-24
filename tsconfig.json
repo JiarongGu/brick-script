@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react",
+    "sourceMap": false,
+    "declaration": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "exclude": [
+    "lib",
+    "node_modules",
+    "test"
+  ]
+}
